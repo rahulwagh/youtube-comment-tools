@@ -1,0 +1,23 @@
+{
+  "name": "youtube-comment-tools",
+  "version": "0.1.0",
+  "description": "Command-line tools and reference code for YouTube comments: find unanswered comments, export comments to CSV or JSON, and estimate API quota with the YouTube Data API v3. Read-only.",
+  "keywords": ["youtube", "youtube-api", "youtube-data-api", "youtube-comments", "comments", "quota", "csv-export", "creator-tools", "cli"],
+  "homepage": "https://replydial.com",
+  "repository": { "type": "git", "url": "git+https://github.com/rahulwagh/youtube-comment-tools.git" },
+  "bugs": { "url": "https://github.com/rahulwagh/youtube-comment-tools/issues" },
+  "license": "MIT",
+  "author": "Rahul Wagh (https://www.youtube.com/@RahulWagh)",
+  "type": "module",
+  "bin": { "yt-comments": "bin/yt-comments.mjs" },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./quota": "./src/quota.mjs"
+  },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/yt-comments.mjs"
+  }
+}

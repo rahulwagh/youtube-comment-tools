@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ReplyDial (the hosted product)
+    url: https://replydial.com
+    about: One inbox of every unanswered comment, with drafts you approve. Product questions go to contact@replydial.com.
+  - name: Free tools in the browser
+    url: https://replydial.com/tools
+    about: The unanswered comments checker and quota calculator, no sign-in.
